@@ -55,6 +55,11 @@ body {
 /* -----------------    MAIN  -------------------- */
 
 /* --------             FORMULARIOS -------------- */
+.btnLink{
+    text-decoration: none;
+    color: white;
+}
+
 .boxes{
 font-size: 15px;
 padding: 10px;

@@ -57,6 +57,10 @@
                     <label for=""></label>
                     <input type="password"name="password"placeholder="Eliga una clave" class="datosPersonales">
                 </div>
+                <div class="datosFormulario">
+                    <label for=""></label>
+                    <input type="password"name="passwordConfirm"placeholder="Reitere la Clave" class="datosPersonales">
+                </div>
                 <div class="datosFormulario"> 
                     <label for=""></label>
                     <input type="email" name="email"placeholder="Email" class="datosPersonales">
@@ -66,8 +70,12 @@
                     <input type="text"name="domicilio"placeholder="Domicilio" class="datosPersonales">
                 </div>
                 <div class="datosFormulario">
-                    <label for="" >Fecha de Nacimiento</label>
+                    <label for="" >Fecha de Nacimiento:</label>
                     <input type="date" name="fechaNacimiento" class="boxes">
+                </div>
+                <div class="datosFormulario">
+                    <label for="" >Ingrese su foto:</label>
+                   <input type="file" name="fotoDeUsuario" accept=".jpg, .png" class="boxes">
                 </div>
                 <div class="datosFormulario">
                     <label for="">Perfil del usuario</label>
@@ -103,9 +111,10 @@
                     <label for="">Vida sana</label>
                     
                 </div>    
-            <button type="submit" class="btnForm">Guardar</button>
+            <button type="submit" class="btnForm"><a href="/" class ="btnLink"> Guardar </a>
+            </button>
             <button type="reset" class="btnForm">Cancelar</button>
-
+                
         </form>
 
 
