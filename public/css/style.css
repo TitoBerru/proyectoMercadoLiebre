@@ -4,6 +4,7 @@
 }
 body {
     font-family: roboto; 
+    background-color:#ebebeb;
 }
 /* ---------------      HEADER  ------------------ */
 .headerMain{
@@ -57,30 +58,39 @@ body {
 .divMainHeader{
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .divMainHeader img{
-
-   border: 1px solid red;
    padding: 0 12px;
    max-width: 100vw;
    margin: 0;
-   flex-grow: 1;
-   
+   flex-grow: 1; 
 }
 .imagenes img{
-    
     width: 100%;
 }
+.basadoUltimaVisita, .ofertas {
+    font-size: 24px;
+    padding: 10px;
+    color: #666;
+    font-weight: 800;
+}
+.precios{
+    font-size: 18px;
+}
+.descuentos, h4{
+    font-size: 16px;
+}
+.imagenes{
+    border-top: 1px solid #ebebeb;
+    background-color: white;
+}
 
-
-/* --------             FORMULARIOS -------------- */
+/* --------------- FORMULARIOS -------------- */
 .btnLink{
     text-decoration: none;
     color: white;
 }
-
 .boxes{
 font-size: 15px;
 padding: 10px;
@@ -183,18 +193,14 @@ padding: 10px;
     /* ------------------------ MAIN -------------------------------*/
     .divMainHeader{
         display: flex;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;        
     }
     
     .divMainHeader img{
-    
-       border: 1px solid red;
        padding: 0 12px;
        max-width: 46vw;
        margin: auto;
-       flex-grow: 0;
-       
+       flex-grow: 0; 
     }
     
    /* -----------FORMULARIOS REGISTRO Y LOGIN ------------ */
@@ -252,7 +258,6 @@ padding: 10px;
     }
     
     .imagenes{
-       border: 1px solid red;
        padding: 0 1px;
        max-width: 295px;
        margin: auto;
