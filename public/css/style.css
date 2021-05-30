@@ -54,25 +54,38 @@ body {
     height: auto;
 }
 /* -----------------    MAIN  -------------------- */
-
 .divMainHeader{
-    display: flex;
+    display:flex;
+    border: 2px solid red;
     flex-wrap: wrap;
+    padding: 0;
+    margin: auto;
+    
 }
+
+.visita1, .visita2, .oferta1, .oferta2{
+    max-width: 320px;
+    /* display: flex; */
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
 .divMainHeader img{
-   padding: 0 12px;
-   max-width: 90vw;
-   margin: 10px;
-  
-}
-.imagenes img{
-    width:100%;
-}
-.basadoUltimaVisita, .ofertas {
+    padding: 5px;
+    width: 100%;
+    margin: 0;
+ }
+ .basadoUltimaVisita, .ofertas {
     font-size: 24px;
     padding: 10px;
     color: #666;
     font-weight: 800;
+    display: block;
+    margin-left: 11px;
+    margin-top: 12px;
+    max-width: 61vh;
 }
 .precios{
     font-size: 18px;
@@ -81,17 +94,27 @@ body {
     font-size: 16px;
 }
 .imagenes{
-    border-top: 1px solid #ebebeb;
-    background-color: white;
+    border-top: 10px solid #ebebeb; 
+    /* background-color: white; */
+    
+ 
+}
+.textoImagen{
+    border-top: 1px solid #666;
 }
 .fa-truck {
     color:#39b54a;
-    margin-left: 90vw;
+    margin-left: 85vw;
 }
+
+/* 
+
+
+
 .descuento{
     color:#39b54a;
     margin-left: 45vw; 
-}
+} */ */
 
 
 /* --------------- FORMULARIOS -------------- */
@@ -276,6 +299,7 @@ padding: 10px;
     /*  ---------------- MAIN ------------ */
     .divMainHeader{
         display: flex;
+        justify-content: space-between;
     }
     
     .imagenes{
@@ -283,7 +307,9 @@ padding: 10px;
        max-width: 295px;
        margin: auto;
     }  
-
+.ofertas {
+    display:none;
+}
     
 
  /* FORMULARIO DE REGISTRO Y LOGIN */
