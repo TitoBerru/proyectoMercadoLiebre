@@ -48,7 +48,7 @@ body {
 }
 /* -----------------    banner ------------------------*/
 .banner {
-    display: flex;
+    display: none;
     max-width: 100%;
     height: auto;
 }
@@ -182,8 +182,7 @@ padding: 10px;
         padding: 10px;
     }
     /* ------------- HEADER --------------- */
-    .headerMainBar {
-      
+    .headerMainBar {  
       display: flex;
       justify-content: space-between;
     }
@@ -197,8 +196,7 @@ padding: 10px;
     .headerMainNav a{
         display: contents;
     }
-    .headerMainNav {
-       
+    .headerMainNav {    
         display: flex;
         justify-content: space-between;
     }
@@ -209,12 +207,15 @@ padding: 10px;
         /* padding: 5px; */
         margin: 5px;
     }
+    /* ---BANNER---- */
+    .banner{
+        display:flex;
+    }
     /* ------------------------ MAIN -------------------------------*/
     .divMainHeader{
         display: flex;
         flex-wrap: wrap;        
     }
-    
     .divMainHeader img{
         display: flex;
        padding: 0 12px;
@@ -229,15 +230,10 @@ padding: 10px;
     .basadoUltimaVisita, .ofertas{
         display: inline-flex;
     }
-    /* .visita1{
-        display: flex;
-    } */
-    
    /* -----------FORMULARIOS REGISTRO Y LOGIN ------------ */
-
    .formularioRegistro{
-       max-width: 70%;
-        align-items: center;
+    max-width: 70%;
+    align-items: center;
     background-color: rgb(207, 207, 207);
     border: 1px solid black;
     border-radius: 5px;
@@ -245,11 +241,11 @@ padding: 10px;
     margin-top: 50px;
    }
    .mainRegister{
-       padding: 1px;
+    padding: 1px;
    }
    .h2Registro{
-       display: block;
-        text-align: center;
+    display: block;
+    text-align: center;
    }
 }   
 
@@ -287,7 +283,11 @@ padding: 10px;
   .headerMainNav li {
       /* padding: 5px; */
       margin: 10px;
-  }    
+  }  
+  /* ---------BANNER----------   */
+.banner{
+    display: flex;
+}
     /*  ---------------- MAIN ------------ */
     .divMainHeader{
         display: flex;
