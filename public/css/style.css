@@ -10,6 +10,7 @@ body {
 .headerMain{
     background-color: #EAC926;
     padding: 15px;
+    /* max-height: 50vh; */
 }
 .logo {
     width: 200px;
