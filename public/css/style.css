@@ -34,7 +34,6 @@ body {
     font-size: 18px;
     padding: 5px 0;
     display: none;
-
 }
 .hambur {
     color: white;  
@@ -59,19 +58,15 @@ body {
     border: 2px solid red;
     flex-wrap: wrap;
     padding: 0;
-    margin: auto;
-    
+    margin: auto;    
 }
-
 .visita1, .visita2, .oferta1, .oferta2{
     max-width: 320px;
     /* display: flex; */
     flex-direction: column;
     padding: 10px;
-    margin: 10px;
-    
+    margin: 10px;   
 }
-
 .divMainHeader img{
     padding: 5px;
     width: 100%;
@@ -95,9 +90,7 @@ body {
 }
 .imagenes{
     border-top: 10px solid #ebebeb; 
-    /* background-color: white; */
-    
- 
+    /* background-color: white; */     
 }
 .textoImagen{
     border-top: 1px solid #666;
@@ -106,17 +99,11 @@ body {
     color:#39b54a;
     margin-left: 85vw;
 }
-
 /* 
-
-
-
 .descuento{
     color:#39b54a;
     margin-left: 45vw; 
-} */ */
-
-
+} */ 
 /* --------------- FORMULARIOS -------------- */
 .btnLink{
     text-decoration: none;
@@ -165,6 +152,7 @@ padding: 10px;
     width: 100%;
     border-radius: 5px;
     border: none;
+    text-decoration: none;
 }
 /* ---------------      FOOTER ----------------------------- */
 .footerContainer{
@@ -259,6 +247,10 @@ padding: 10px;
    .mainRegister{
        padding: 1px;
    }
+   .h2Registro{
+       display: block;
+        text-align: center;
+   }
 }   
 
 /* + DE 1200PX LO PUSE A 1100 PARA VER MEJOR EN EL NAVEGADOR LUEGO HAY Q CAMBIAR----- */
@@ -327,6 +319,10 @@ padding: 10px;
  border-radius: 5px;
  margin:auto;
  margin-top: 50px;
+}
+.h2Registro{
+    display: block;
+     text-align: center;
 }
 }
 
