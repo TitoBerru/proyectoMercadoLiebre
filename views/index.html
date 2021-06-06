@@ -17,7 +17,7 @@
             <img src="/public/images/logo-mercado-liebre.svg" alt="logo-mercado-liebre" class="logo">
             <form action="/search" method="GET" class="formSearch">
            
-                <input type="text" placeholder="Ingrese producto, marcas..." class="inputSearch" />
+                <input type="text" placeholder="Buscar producto, marcas y más..." class="inputSearch" />
                 <button type="submit"class="btnSearch"><i class="fas fa-search"></i>
                 </button>
             
@@ -36,7 +36,7 @@
                 <li><a href="#">Ayuda</a></li>
             </ul>
             <ul class="Navbar2">
-                <li><a href="/register.html">Creá tu cuenta <i class="fas fa-credit-card"></i></a></i></li>
+                <li><a href="/register.html" class="register">Creá tu cuenta <i class="fas fa-credit-card"></i></a></i></li>
                 <li><a href="/login.html">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
                 <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></i></li>
             </ul>
@@ -48,24 +48,24 @@
                 <span class="textoBUV">Basado en tu última visita</span>
         <div class="containerBUV">               
             <div class="imagenes">
-                    <article class="visita1">       
+                    <article class="visita1" id="vi1">       
                         <img src="/public/images/img-cafetera-moulinex.jpg" alt="cafetera-moulinex">
                         <div class="textoImagen">
                             <i class="fas fa-truck"></i>                        
                             <span class="precio">$6.770</span>
                             <span class="descuento">40% off</span>
-                            <h4>Cafetera Moulinex</h4>
+                            <h4 class="vi1">Cafetera Moulinex</h4>
                         </div>                       
                     </article>
             </div>               
             <div class="imagenes">
-                    <article class="visita2">
+                    <article class="visita2" id="vi2">
                         <img src="/public/images/img-macbook-pro-2019.jpg" alt="macbook-pro-2019">
                         <div class="textoImagen">
                             <i class="fas fa-truck"></i>  
                             <span class="precio">$230.000</span>
                             <span class="descuento">20% off</span>
-                            <h4>MacBook Pro 2019</h4>
+                            <h4 class="vi2">MacBook Pro 2019</h4>
                         </div>
                     </article>
             </div>
@@ -75,24 +75,24 @@
 
         <div class="containerOfertas">                
                 <div class="imagenes">
-                    <article class="oferta1">
+                    <article class="oferta1" id="of1">
                         <img src="/public/images/img-samsung-galaxy-s10.jpg" alt="samsung-galaxy-s10">
                         <div class="textoImagen">
                             <i class="fas fa-truck"></i>
                             <span class="precio">$70.500</span>
                             <span class="descuento">10% off</span>
-                            <h4>Samsung Galaxy s10</h4>
+                            <h4 class="of1">Samsung Galaxy s10</h4>
                         </div>
                     </article>
                 </div>              
                 <div class="imagenes">
-                    <article class="oferta2">
+                    <article class="oferta2" id="of2">
                         <img src="/public/images/img-tv-samsung-smart.jpg" alt="img-tv-samsung-smart">
                         <div class="textoImagen">
                             <i class="fas fa-truck"></i>   
                             <span class="precio">$170.500</span>
                             <span class="descuento">10% off</span>
-                            <h4>TV Samsung smart</h4>
+                            <h4 class="of2">TV Samsung smart</h4>
                         </div>
                     </article>
                 </div>
@@ -102,31 +102,27 @@
     <footer>
         <br>
         <div class="footerContainer">
-
-            <i class="fas fa-credit-card iconofooter"></i>
-            <h2>Pagá con tarjeta o efectivo</h2>
-            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
-                efectivo en puntos de pago. ¡Y siempre es seguro!
-            </p>
-
-            <i class="fas fa-gift iconofooter"></i>
-            <h2>Envío gratis desde $ 2.500</h2>
-
-            <p>
-                Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
-                miles de productos. Es un beneficio de Mercado Puntos.
-            </p>
-
-            <i class="fas fa-user-shield iconofooter"></i>
-            <h2>Seguridad, de principio a fin</h2>
-
-            <p>
-                ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
-                hacer, porque estás siempre protegid@.
-            </p>
-
-            <span class="copy">Copyright © 1999-2020 MercadoLiebre S.R.L.</span>
+            <div class="footerPart1">
+                <i class="fas fa-credit-card iconofooter"></i>
+                <h2>Pagá con tarjeta o efectivo</h2>
+                 <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
+                efectivo en puntos de pago. ¡Y siempre es seguro!</p>                    
+            </div>
+            <div class="footerPart2">
+                <i class="fas fa-gift iconofooter"></i>
+                <h2>Envío gratis desde $ 2.500</h2>
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
+                    miles de productos. Es un beneficio de Mercado Puntos.</p>
+            </div>
+            <div class="footerPart3">
+                <i class="fas fa-user-shield iconofooter"></i>
+                <h2>Seguridad, de principio a fin</h2>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
+                    hacer, porque estás siempre protegid@.</p>   
+            </div>     
         </div>
+       
+        <span class="copy">Copyright © 1999-2020 MercadoLiebre S.R.L.</span>
 
     </footer>
 
