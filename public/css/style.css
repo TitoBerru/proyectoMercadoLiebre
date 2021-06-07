@@ -4,7 +4,7 @@
     
 }
 body {
-    font-family: roboto; 
+    font-family: "roboto"; 
     background-color:#ebebeb;  
 }
 /* ---------------      HEADER  ------------------ */
@@ -218,6 +218,7 @@ padding: 10px;
 .h2Registro{
     text-align: center;
 }
+/* ---- hoovers de login y register ----*/
 .btnLogin:hover{
     padding:10px;
     border-radius: 10px;
@@ -225,8 +226,6 @@ padding: 10px;
     color: #1259c3; 
     
 }
-/* ---- hoovers de login y register ----*/
-
 /* ---------------FOOTER --------------------- */
 .footerContainer{
     text-align: center;
@@ -373,21 +372,20 @@ padding: 10px;
     .footerContainer{
         display: flex;
     }
-        .footerPart1, .footerPart2, .footerPart3{
+    .footerPart1, .footerPart2, .footerPart3{
         align-items: center;
         justify-content: space-evenly;
     }
-        .footerContainer i {
+    .footerContainer i {
      font-size: 1.5em;
     }
-        .footerPart1 h2, .footerPart2 h2, .footerPart3 h2{
+    .footerPart1 h2, .footerPart2 h2, .footerPart3 h2{
         font-size: 1em;
     }
-        .footerContainer p{
+    .footerContainer p{
         font-size: 0.8em;
     }
 }
- /* ----769 a 1199 ----- */
 @media (min-width: 840px) and (max-width: 1199px){
 /* ------------- GENERAL --------------- */
     body{
@@ -510,20 +508,20 @@ padding: 10px;
         display: flex;
     }
     /* ----------FOOTER  -----------*/
-   .footerContainer{
+.footerContainer{
     display: flex;
 }
-    .footerPart1, .footerPart2, .footerPart3{
+.footerPart1, .footerPart2, .footerPart3{
     align-items: center;
     justify-content: space-evenly;
 }
-    .footerContainer i {
+.footerContainer i {
  font-size: 1.5em;
 }
-    .footerPart1 h2, .footerPart2 h2, .footerPart3 h2{
+.footerPart1 h2, .footerPart2 h2, .footerPart3 h2{
     font-size: 1em;
 }
-    .footerContainer p{
+.footerContainer p{
     font-size: 0.8em;
 }
    /* --------FORMULARIOS REGISTRO Y LOGIN ---------- */
