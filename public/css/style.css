@@ -178,9 +178,7 @@ padding: 10px;
     padding-left: 15px;
 }
 .formularioRegistro{
-    
-    padding: 20px 15px;
-    border: 1px solid black;
+    padding: 20px 15px;    
 }
 .datosFormulario{
     margin-bottom: 15px;
@@ -192,6 +190,10 @@ padding: 10px;
 .datosPersonales{
     width: 100%;
     padding: 15px;
+    border:0px;
+    border-radius: 5px;
+    border-block-end: revert;
+    background-color: #ebebeb;
 }
 .btnForm{
     background-color:#1259c3; 
@@ -216,6 +218,15 @@ padding: 10px;
 .h2Registro{
     text-align: center;
 }
+.btnLogin:hover{
+    padding:10px;
+    border-radius: 10px;
+    font-size:x-large;
+    color: #1259c3; 
+    
+}
+/* ---- hoovers de login y register ----*/
+
 /* ---------------FOOTER --------------------- */
 .footerContainer{
     text-align: center;
@@ -388,9 +399,12 @@ padding: 10px;
         margin-top: 0px;
     }   
     .mainRegister{
-        background-color: rgb(207, 207, 207);
+        background-color: #ebebeb;
         margin: 0;
         padding: 0;
+        border:0px;
+        border-radius: 5px;
+        border-block-end: revert;
     }      
 /* ------------- HEADER --------------- */
     .headerMain{
@@ -723,7 +737,7 @@ main{
     }
  /* FORMULARIO DE REGISTRO Y LOGIN */
  .mainRegister{
-    background-color: rgb(207, 207, 207);
+    background-color:#ebebeb;
     margin: 0;
     padding: 10px 0 10px 0;
     display: flex;
@@ -733,11 +747,12 @@ main{
     max-width: 100%;
     width: 50vw;
     align-items: center;
-    background-color: rgb(207, 207, 207);
-    border: 1px solid black;
+    border: 0px;
     border-radius: 5px;
     margin:auto;
     margin-top: 50px;
+    border-block-end: revert;
+    background-color: #ebebeb;
 }
 .h2Registro{
     display: block;
