@@ -168,8 +168,8 @@ article i{
     color: white;
 }
 .boxes{
-font-size: 15px;
-padding: 10px;
+    font-size: 15px;
+    padding: 10px;
 }
 .checkbox{
     display: -webkit-box;
@@ -207,7 +207,6 @@ padding: 10px;
     background-color:#1259c3; 
     color: white;
     font-size: 15px;
-    /* border-radius: 8px; */
     padding: 5px;
     margin:auto;
     width: 100%;
@@ -223,8 +222,7 @@ padding: 10px;
     padding:10px;
     border-radius: 10px;
     font-size:x-large;
-    color: #1259c3; 
-    
+    color: #1259c3;   
 }
 /* ---------------FOOTER --------------------- */
 .footerContainer{
@@ -243,10 +241,8 @@ padding: 10px;
 .copy{
     font-size: 0.7em;
     margin-left: 20px;
-    padding: 15px;
-    
+    padding: 15px;   
 }
-
 /* -------------- MEDIA QUERIS  ----------- */
 @media (min-width: 481px) and (max-width: 839px) {
     /* ----  HEADER ----- */
@@ -386,8 +382,9 @@ padding: 10px;
         font-size: 0.8em;
     }
 }
-@media (min-width: 840px) and (max-width: 1199px){
-/* ------------- GENERAL --------------- */
+    /* --- media de 840 a 990 se puede extirar a 1200! --*/
+@media (min-width: 840px) and (max-width: 990px){
+    /* ----- GENERAL este media se puede extirar hasta 1200------ */
     body{
         position:relative;
         margin:0px;
@@ -404,7 +401,7 @@ padding: 10px;
         border-radius: 5px;
         border-block-end: revert;
     }      
-/* ------------- HEADER --------------- */
+    /* ------------- HEADER --------------- */
     .headerMain{
         display: flex;
         flex-wrap: wrap;
@@ -507,22 +504,22 @@ padding: 10px;
         display: flex;
     }
     /* ----------FOOTER  -----------*/
-.footerContainer{
-    display: flex;
-}
-.footerPart1, .footerPart2, .footerPart3{
-    align-items: center;
-    justify-content: space-evenly;
-}
-.footerContainer i {
- font-size: 1.5em;
-}
-.footerPart1 h2, .footerPart2 h2, .footerPart3 h2{
-    font-size: 1em;
-}
-.footerContainer p{
-    font-size: 0.8em;
-}
+    .footerContainer{
+        display: flex;
+    }
+    .footerPart1, .footerPart2, .footerPart3{
+        align-items: center;
+        justify-content: space-evenly;
+        }
+    .footerContainer i {
+        font-size: 1.5em;
+        }
+    .footerPart1 h2, .footerPart2 h2, .footerPart3 h2{
+        font-size: 1em;
+        }
+    .footerContainer p{
+        font-size: 0.8em;
+    }
    /* --------FORMULARIOS REGISTRO Y LOGIN ---------- */
    .formularioRegistro{
     max-width: 70%;
@@ -541,10 +538,10 @@ padding: 10px;
     text-align: center;
    }    
 }   
-/* ------------     MEDIA QUERIS + DE 1200PX     ----- */
-@media  (min-width: 1200px) { 
+/* ------------     MEDIA QUERIS + DE 991 (1200) PX     ----- */
+@media  (min-width: 991px) { 
  /* ------General------- */
- main{
+    main{
      margin-top: 0;
  }
  /* ---- HEADER ----- */
@@ -558,7 +555,7 @@ padding: 10px;
     width: 100vw;
     flex-wrap: wrap;
     justify-content: space-between;  
-}
+    }
  .headerMainBar {  
     display: flex;
     justify-content: space-between;
@@ -596,166 +593,166 @@ padding: 10px;
   }
   .headerMainNav i{
     margin-left: 10px;
-} 
-.inputSearch{
+    } 
+    .inputSearch{
     height: calc(1.5em + 1vh);
     padding-left:8px;
     font-size: 1.5em;
     border-radius: 3px;
   }
-.formSearch{
+    .formSearch{
     width: 44%;
-}
-.logo {
+    }
+    .logo {
     width: 17%; 
     margin-right: 20px; 
     margin-left: 16px;
-}
-.btnSearch{
+        }
+    .btnSearch{
     border-left: 1px solid #ebebeb;
-}
+    }
   /* ---------BANNER----------   */
-.banner{
+    .banner{
     display: flex;
     width: 100%;
     max-width: 100vw;
-}
-/*  ---------------- MAIN ------------ */
-main{
+    }
+    /*  ---------------- MAIN ------------ */
+    main{
         display:flex;
         flex-wrap: wrap;
         position:relative;
         justify-content: space-evenly;
-}
-.textoBUV{
+    }
+    .textoBUV{
     display:block;
     position: absolute;
     top:15px;
     left: 0;
     font-size: 2em;
     margin-left: 20px;
-}
-.textoOfertas{
+    }
+    .textoOfertas{  
         display: none;
-}    
-.containerBUV img, .containerOfertas img{
+    }    
+    .containerBUV img, .containerOfertas img{
         display: flex;
        max-width: 46vw;
        margin: auto;
        flex-grow: 1; 
-}
-.imagenes{
+    }
+    .imagenes{
         display: flex;
         flex-wrap: nowrap;        
         margin-top: 150px;
         height: fit-content;
         transition-delay: 200ms;     
-}
-.imagenes h4{
+    }
+    .imagenes h4{
     display: none;        
-}
-.basadoUltimaVisita {
+    }
+    .basadoUltimaVisita {
         display: inline-flex;
-}  
-.visita1, .visita2, .oferta1, .oferta2{   
+    }  
+    .visita1, .visita2, .oferta1, .oferta2{   
         max-width: 21vw;
         flex-direction: row;
         flex-wrap: nowrap;
         padding: 10px;
         margin: 10px;        
-}
- /* --------- hovers Main---------*/
+    }
+    /* --------- hovers Main---------*/
 
-#vi1:hover .vi1 {
+    #vi1:hover .vi1 {
     display:block;
     z-index: 1;
-}
-#vi2:hover .vi2{
+    }
+    #vi2:hover .vi2{
     display:block;
     z-index: 1;
-}
-#of1:hover .of1{
+    }
+    #of1:hover .of1{
     display:block;
     z-index: 1;
-}
-#of2:hover .of2{
+    }
+    #of2:hover .of2{
     display:block;
     z-index: 1;
-}
-.imagenes:hover {
+    }
+    .imagenes:hover {
     box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
-} 
-#vi1 .textoImagen i{
+    } 
+    #vi1 .textoImagen i{
     transition: all 450ms;
-}
-#vi1:hover .textoImagen i {
+    }
+    #vi1:hover .textoImagen i {
+        transform: rotate(360deg);
+    }
+    #vi2 .textoImagen i{
+    transition: all 450ms;
+    }
+    #vi2:hover .textoImagen i {
     transform: rotate(360deg);
   }
-#vi2 .textoImagen i{
+    #of1 .textoImagen i{
     transition: all 450ms;
-}
-#vi2:hover .textoImagen i {
+    }
+    #of1:hover .textoImagen i {
     transform: rotate(360deg);
   }
-#of1 .textoImagen i{
-    transition: all 450ms;
-}
-#of1:hover .textoImagen i {
-    transform: rotate(360deg);
-  }
-#of2 .textoImagen i{
-    transition: all 450ms;
-}
-#of2:hover .textoImagen i {
-    transform: rotate(360deg);
-  }
-    /* --------FOOTER -----------*/
-    .footerContainer{
-        background-color: white;
+    #of2 .textoImagen i{
+        transition: all 450ms;
+        }
+    #of2:hover .textoImagen i {
+        transform: rotate(360deg);
+    }
+        /* --------FOOTER -----------*/
+        .footerContainer{
+            background-color: white;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .footerPart1, .footerPart2, .footerPart3{
+            align-items: center;
+            width: 300px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .footerPart1 h2, .footerPart2 h2, .footerPart3 h2{
+            font-size: 1.5em;
+            font-weight: 400;
+        }
+        .footerContainer p{
+            font-size: 1em;
+            text-align: center;
+        }
+        .iconofooter:hover{
+            color:#666;
+        }
+    /* FORMULARIO DE REGISTRO Y LOGIN */
+    .mainRegister{
+        background-color:#ebebeb;
+        margin: 0;
+        padding: 10px 0 10px 0;
         display: flex;
-        justify-content: space-evenly;
-    }
-    .footerPart1, .footerPart2, .footerPart3{
+        position: relative;
+        }
+    .formularioRegistro{
+        max-width: 100%;
+        width: 50vw;
         align-items: center;
-        width: 300px;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    .footerPart1 h2, .footerPart2 h2, .footerPart3 h2{
-        font-size: 1.5em;
-        font-weight: 400;
-    }
-    .footerContainer p{
-        font-size: 1em;
-        text-align: center;
-    }
-    .iconofooter:hover{
-        color:#666;
-    }
- /* FORMULARIO DE REGISTRO Y LOGIN */
- .mainRegister{
-    background-color:#ebebeb;
-    margin: 0;
-    padding: 10px 0 10px 0;
-    display: flex;
-    position: relative;
-}
- .formularioRegistro{
-    max-width: 100%;
-    width: 50vw;
-    align-items: center;
-    border: 0px;
-    border-radius: 5px;
-    margin:auto;
-    margin-top: 50px;
-    border-block-end: revert;
-    background-color: #ebebeb;
-}
-.h2Registro{
+        border: 0px;
+        border-radius: 5px;
+        margin:auto;
+        margin-top: 50px;
+        border-block-end: revert;
+        background-color: #ebebeb;
+        }
+    .h2Registro{
     display: block;
     text-align: center;
     position: absolute;
-}
+    }
 }
 
 /* ----MEDIASQUERY DE RETOQUES ESTETICOS EN TRANSICIONES DE MEDIA ---- */
