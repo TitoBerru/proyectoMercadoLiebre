@@ -1,7 +1,6 @@
 
 * {
-    box-sizing: border-box; 
-    
+    box-sizing: border-box;    
 }
 body {
     font-family: "roboto"; 
@@ -10,7 +9,7 @@ body {
 /* ---------------      HEADER  ------------------ */
 .headerMain{
     background-color: #EAC926;
-    padding: 20px;
+    padding: 0px;
     position: fixed;
     top: 0;
     left: 0;
@@ -547,7 +546,7 @@ article i{
  /* ---- HEADER ----- */
  .headerMain{
     flex-grow: 1;   
-    padding: 15px;
+    padding: 0px;
     position:static;
     display: flex;
     z-index: 0;
@@ -591,9 +590,6 @@ article i{
       padding: 5px;
       margin: 10px;
   }
-  .headerMainNav i{
-    margin-left: 10px;
-    } 
     .inputSearch{
     height: calc(1.5em + 1vh);
     padding-left:8px;
