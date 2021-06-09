@@ -638,6 +638,7 @@ article i{
     left: 0;
     font-size: 2em;
     margin-left: 20px;
+    max-width: 50vw;
     }
     .textoOfertas{  
         display: none;
@@ -667,6 +668,9 @@ article i{
         flex-wrap: nowrap;
         padding: 10px;
         margin: 10px;        
+    }
+    .containerBUV, .containerOfertas{
+        margin-top: -20px;
     }
     /* --------- hovers Main---------*/
 
