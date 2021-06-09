@@ -83,8 +83,9 @@ body {
     font-size: 18px;
     margin: auto; /* con esta linea centro al boton */
 }
-.register:hover{
+.navBar2 a:hover{
     color: #0022AA;
+    opacity: 0.8;
 }
 /* -----------------    banner ------------------------*/
 .banner {
@@ -167,8 +168,8 @@ article i{
     color: white;
 }
 .boxes{
-    font-size: 15px;
-    padding: 10px;
+    font-size: 1em;
+    padding: 3px;
 }
 .checkbox{
     display: -webkit-box;
@@ -177,7 +178,11 @@ article i{
     padding-left: 15px;
 }
 .formularioRegistro{
-    padding: 20px 15px;    
+    padding: 20px 15px;
+    border:1px solid  rgba(207, 207, 207,0.9);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border-block-end:outset;
 }
 .datosFormulario{
     margin-bottom: 15px;
@@ -190,8 +195,7 @@ article i{
     width: 100%;
     padding: 15px;
     border:0px;
-    border-radius: 5px;
-    border-block-end: revert;
+    border-block-end:outset;
     background-color: #ebebeb;
 }
 .btnForm{
@@ -744,12 +748,11 @@ article i{
         max-width: 100%;
         width: 50vw;
         align-items: center;
-        border: 0px;
-        border-radius: 5px;
         margin:auto;
-        margin-top: 50px;
-        border-block-end: revert;
+        margin-top: 65px;
         background-color: #ebebeb;
+        margin-bottom: 10px;
+
         }
     .h2Registro{
     display: block;
