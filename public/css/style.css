@@ -689,8 +689,12 @@ article i{
     display:block;
     z-index: 1;
     }
+    .imagenes{
+        transition: all 350ms;
+    }
     .imagenes:hover {
-    box-shadow : 0px 0px 10px rgb(17, 17, 17);
+    box-shadow :  20px 20px 20px rgb(136, 136, 136);
+    border-radius: 5px;
     } 
     #vi1 .textoImagen i{
     transition: all 450ms;
