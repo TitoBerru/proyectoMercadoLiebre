@@ -338,11 +338,13 @@ article i{
     }
     .containerBUV{
         display: flex;
-        flex-wrap: nowrap;      
+        flex-wrap:wrap;
+        justify-content: space-evenly;      
     }
     .containerOfertas{
         display: flex;
-        flex-wrap: nowrap;    
+        flex-wrap: wrap;
+        justify-content: space-evenly;    
     }
     .containerBUV img, .containerOfertas img{
         display: flex;
@@ -354,6 +356,7 @@ article i{
     .imagenes{
         display: flex;
         box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+        max-width: 45vw;
     }
     .basadoUltimaVisita {
         display: inline-flex;
@@ -385,8 +388,8 @@ article i{
         font-size: 0.8em;
     }
 }
-    /* --- media de 840 a 990 se puede extirar a 1200! --*/
-@media (min-width: 840px) and (max-width: 990px){
+    /* --- media de 840 a 1000 se puede extirar a 1200! --*/
+@media (min-width: 840px) and (max-width: 1000px){
     /* ----- GENERAL este media se puede extirar hasta 1200------ */
     body{
         position:relative;
@@ -541,8 +544,8 @@ article i{
     text-align: center;
    }    
 }   
-/* ------------     MEDIA QUERIS + DE 991 (1200) PX     ----- */
-@media  (min-width: 991px) { 
+/* ------------     MEDIA QUERIS + DE 1001 (1200) PX     ----- */
+@media  (min-width: 1001px) { 
  /* ------General------- */
     main{
     margin: 0;
@@ -619,6 +622,7 @@ article i{
   /* ---------BANNER----------   */
   .contentBanner{
       width: 100%;
+      margin-bottom: 10px;
   }
     .banner{
     display: flex;
@@ -629,20 +633,15 @@ article i{
         display:flex;
         flex-wrap: wrap;
         position:relative;
-        justify-content: space-evenly;
     }
-    .textoBUV{
+    .textoBUV, .textoOfertas{
     display:block;
-    position: absolute;
-    top:15px;
-    left: 0;
     font-size: 2em;
-    margin-left: 20px;
     max-width: 50vw;
     }
-    .textoOfertas{  
-        display: none;
-    }    
+    .basadoUltimaVisita {
+        display: inline-flex;
+    }
     .containerBUV img, .containerOfertas img{
         display: flex;
        max-width: 46vw;
@@ -670,7 +669,7 @@ article i{
         margin: 10px;        
     }
     .containerBUV, .containerOfertas{
-        margin-top: -20px;
+        margin-top: -130px;
     }
     /* --------- hovers Main---------*/
 
