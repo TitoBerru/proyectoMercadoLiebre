@@ -220,7 +220,7 @@ article i{
 .h2Registro{
     text-align: center;
 }
-/* ---- hoovers de login y register ----*/
+/* ---- hoovers de login ----*/
 .btnLogin:hover{
     padding:10px;
     border-radius: 10px;
@@ -672,7 +672,6 @@ article i{
         margin-top: -130px;
     }
     /* --------- hovers Main---------*/
-
     #vi1:hover .vi1 {
     display:block;
     z-index: 1;
@@ -690,7 +689,7 @@ article i{
     z-index: 1;
     }
     .imagenes:hover {
-    box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+    box-shadow : 0px 0px 10px rgb(17, 17, 17);
     } 
     #vi1 .textoImagen i{
     transition: all 450ms;
