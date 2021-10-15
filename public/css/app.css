@@ -382,7 +382,7 @@ hr {
 }
 
 
-/*====== Formularios ======*/
+/*====== Form Product Create ======*/
 .form-label {
   display: inline-block;
   font-size: 1.6em;
@@ -406,9 +406,81 @@ textarea.form-input {
   resize: vertical;
   padding: 15px;
 }
-
-
-
+/* FORMS */
+.formularioRegistro{
+    max-width: 50vh;
+    align-items: center;
+    background-color: rgba(207, 207, 207,0.1);
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    margin:auto;
+    margin-top: 50px;
+   }
+   .mainRegister{
+    padding: 1px;
+   }
+   .h2Registro{
+    display: block;
+    text-align: center;
+   } 
+  .btnLink{
+    text-decoration: none;
+    color: white;
+  }
+  .boxes{
+      font-size: 1em;
+      padding: 3px;
+  }
+  .checkbox{
+      display: -webkit-box;
+  }
+  .checkbox label{
+      padding-left: 15px;
+  }
+  }
+.datosFormulario{
+    margin-bottom: 15px;
+}
+.datosFormulario label{
+    margin-bottom: 5px;
+    display: block;
+}
+.datosPersonales{
+    width: 100%;
+    padding: 15px;
+    border:0px;
+    border-block-end:outset;
+    background-color: #ebebeb;
+}
+.btnForm{
+    background-color:#1259c3; 
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.btnLogin{
+    background-color:#1259c3; 
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    margin:auto;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+}
+.h2Registro{
+    text-align: center;
+}
+/* ---- hoovers de login ----*/
+.btnLogin:hover{
+    padding:10px;
+    border-radius: 10px;
+    font-size:x-large;
+    color: #1259c3;   
+}
 /*====== Media-Queries ======*/
 @media (min-width: 768px) {
   .main-header_credit-link {
@@ -459,4 +531,16 @@ textarea.form-input {
     width: 95%;
     margin: auto;
   }
+  /* --------------- FORMS -------------- */
+
+.formularioRegistro{
+    padding: 20px 15px;
+    border:1px solid  rgba(207, 207, 207,0.9);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border-block-end:outset;
+
+/*=== end of forms  ===*/
 }
+
+ 
